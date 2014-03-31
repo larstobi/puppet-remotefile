@@ -1,0 +1,8 @@
+name    'larstobi-remotefile'
+version '1.0.0'
+source 'https://github.com/larstobi/puppet-remotefile.git'
+author 'Lars Tobias Skjong-Borsting <larstobi@conduct.no>'
+license 'Apache License, Version 2.0'
+summary 'Remote file resource type'
+description 'This is a Puppet resource type for a local file with a remote source using HTTP(S).'
+project_page 'https://github.com/larstobi/puppet-remotefile'

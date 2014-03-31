@@ -5,7 +5,7 @@ This is a Puppet resource type for a local file with a remote source. Currently
 supported remote transport protocols include HTTP and HTTPS.
 
 Usage
-=====
+-----
 
 ```
 remotefile {
@@ -18,3 +18,18 @@ remotefile {
 
 The sha1 parameter is optional, however recommended. If not specified, the
 provider will download the file every time Puppet runs to check the SHA1 sum.
+
+License
+-------
+
+Apache License, Version 2.0
+
+Contact
+-------
+
+Lars Tobias Skjong-Borsting <larstobi@conduct.no>
+
+Support
+-------
+
+Please log tickets and issues at the [project site](https://github.com/larstobi/puppet-remotefile/issues).
