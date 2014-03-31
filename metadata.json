@@ -1,0 +1,70 @@
+{
+  "operatingsystem_support": [
+    {
+      "operatingsystem": "RedHat",
+      "operatingsystemrelease": [
+        "5",
+        "6"
+      ]
+    },
+    {
+      "operatingsystem": "CentOS",
+      "operatingsystemrelease": [
+        "5",
+        "6"
+      ]
+    },
+    {
+      "operatingsystem": "OracleLinux",
+      "operatingsystemrelease": [
+        "5",
+        "6"
+      ]
+    },
+    {
+      "operatingsystem": "Scientific",
+      "operatingsystemrelease": [
+        "5",
+        "6"
+      ]
+    },
+    {
+      "operatingsystem": "SLES",
+      "operatingsystemrelease": [
+        "11 SP1"
+      ]
+    },
+    {
+      "operatingsystem": "Debian",
+      "operatingsystemrelease": [
+        "6",
+        "7"
+      ]
+    },
+    {
+      "operatingsystem": "Ubuntu",
+      "operatingsystemrelease": [
+        "10.04",
+        "12.04"
+      ]
+    }
+  ],
+  "requirements": [
+    {
+      "name": "pe",
+      "version_requirement": "2.x"
+    },
+    {
+      "name": "puppet",
+      "version_requirement": "2.x"
+    }
+  ],
+  "name": "larstobi-remotefile",
+  "version": "1.0.0",
+  "source": "https://github.com/larstobi/puppet-remotefile.git",
+  "author": "Lars Tobias Skjong-Borsting <larstobi@conduct.no>",
+  "license": "Apache License, Version 2.0",
+  "summary": "Remote file resource type",
+  "description": "This is a Puppet resource type for a local file with a remote source using HTTP(S).",
+  "project_page": "https://github.com/larstobi/puppet-remotefile"
+}
